@@ -18,14 +18,14 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/lane-detection-dataset.html">Lane Detection Dataset</a></h1>
+                    <h1 class="entry-title"><a href="/lane-detection-dataset-collecetion.html">Lane Detection Dataset Collecetion</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2021-10-04T11:37:28.213068-07:00">
-                Published: Mon 04 October 2021
+        <abbr class="published" title="2021-10-03T17:41:00-07:00">
+                Published: Sun 03 October 2021
         </abbr>
 		<br />
-        <abbr class="modified" title="2021-10-04T11:37:28.213068-07:00">
-                Updated: Mon 04 October 2021
+        <abbr class="modified" title="2021-10-14T23:42:07.064545-07:00">
+                Updated: Thu 14 October 2021
         </abbr>
 
         <address class="vcard author">
@@ -33,24 +33,43 @@
         </address>
 <p>In <a href="/category/computer-vision.html">Computer Vision</a>.</p>
 
-</footer><!-- /.post-info --><p>In a vision based autonomous driving pipeline, the first step is to detect static and moving objects with computer vision model. Lane detection is one crucial component of this step, enabling safe driving of autonomous vehicles. Below are some popular lane detection datasets. </p>
+</footer><!-- /.post-info --><p>In a vision based autonomous driving pipeline, static and moving objects are detected with computer vision methods. Historically, lanes are detected with a sliding window. Currently, the methods become computer vision models. Among static object detection there are lane detection. And here is a list of public lane detection datasets. </p>
+<h2>Published in 2017</h2>
 <ul>
 <li>
-<p>TuSimple
-A dataset collected on highway scenes. There are at most 4 lines in one image. Lanes are annotated with x-coordinates of incremental y axis values. 
-<img alt="" src="/images/tusimple.jpeg"></p>
+<p>Mapillary Vistas dataset has a total of 25k images with data collected globally. Below is the sample ground truth, the white part is the lane. 
+ <img alt="" src="/images/mappilary.png"></p>
 </li>
 <li>
-<p>CULane
-A challenging dataset with 88k images collected from 6 taxis in Beijing. They have a lot of difficult scenarios. 
-<img alt="" src="/images/CULane.png"></p>
+<p>TuSimple has a total of 72k images. They are collected from highway with clearr vision of lane textures. All lanes are annotated with polylines. 
+ <img alt="" src="/images/tusimple.jpeg"></p>
 </li>
 <li>
-<p>CurveLanes
-Dataset with 150k images that contains a lot of curve lanes. 
-<img alt="" src="/images/curvelanes.png"></p>
+<p>CULane contains 98k images with categories of like crowded, night, no line, shadow. This dataset was collected at Beijing in 6 taxis. 
+ <img alt="" src="/images/CULane.png"></p>
 </li>
-</ul>                </article>
+</ul>
+<h2>Published in 2018</h2>
+<ul>
+<li>
+<p>BDD100k contains 120 million images. It also contains lane mark annotations. 
+<img alt="" src="/images/bdd100k.png"></p>
+</li>
+<li>
+<p>ApolloScape contains 144k images.</p>
+</li>
+</ul>
+<h2>Published in 2019</h2>
+<ul>
+<li>Unsupervised LLAMAS dataset is distinctive in that it uses HD map to localize ego car and project maps onto ego frames.</li>
+</ul>
+<h2>Published in 2020</h2>
+<ul>
+<li>CurveLanes contains 150k images collected across China, the lanes were biased to have big curvatures. 
+<img alt="" src="/images/curvelanes.png"></li>
+</ul>
+<h1>Conclusion</h1>
+<p>TuSimple and CULane are the most commonly used datasets in publications in lane detection. Among both CULane are more challenging because the diversity in scenarios. </p>                </article>
             </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
